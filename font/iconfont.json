@@ -1,0 +1,51 @@
+{
+  "id": "1830406",
+  "name": "恋爱博物馆",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8815635",
+      "name": "love-sign",
+      "font_class": "love-sign",
+      "unicode": "e920",
+      "unicode_decimal": 59680
+    },
+    {
+      "icon_id": "12194742",
+      "name": "love letter",
+      "font_class": "loveletter",
+      "unicode": "ec64",
+      "unicode_decimal": 60516
+    },
+    {
+      "icon_id": "12194743",
+      "name": "love talk",
+      "font_class": "lovetalk",
+      "unicode": "ec65",
+      "unicode_decimal": 60517
+    },
+    {
+      "icon_id": "12971934",
+      "name": "LOVE@1x",
+      "font_class": "LOVEx",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "7715095",
+      "name": "phone-call",
+      "font_class": "phone-call",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "5262066",
+      "name": "wechat_icon",
+      "font_class": "wechat_icon",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    }
+  ]
+}

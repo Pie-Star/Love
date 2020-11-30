@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>恋爱博物馆</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="shortcut icon" href="images/love.ico" />
+		<link rel="stylesheet" href="font/iconfont.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/love.css" />
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/grey.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<audio src="src/雪奕.mp3" autoplay="autoplay" loop="loop">
+			当前浏览器不支持audio
+		</audio>
+		<!----------------------------------头部start---------------------------------->
+		<header id="love-header">
+			<!-- 上部分 -->
+			<div class="top-bar d-none d-sm-none d-md-none d-lg-block">
+				<div class="container text-center text-muted">
+					<div class="row text-muted">
+						<div class="top-bar-1 col-md-2">
+							<a href="#" class="text-muted">
+								<span class="iconfont icon-wechat_icon"></span>
+								<span>WeChat咨询顾问</span>
+								<img src="images/TIM.png" alt="TIM账号码" style="width: 120px;">
+							</a>
+						</div>
+						<div class="top-bar-2 col-md-5">
+							<span class="iconfont icon-phone-call"></span>
+							<span>188-8888-8888</span>
+							<span>（ 咨询服务时间9:00——21:00 ）</span>
+						</div>
+						<div class="top-bar-3 col-md-2">
+							<span>Attachment</span>
+						</div>
+						<div class="top-bar-4 col-md-3">
+							<a class="btn btn-success btn-sm" href="register.html">免费注册</a>
+							<a class="ml-2" href="register.html">LOGIN</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 下部分 -->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container">
+					<a class="navbar-brand d-flex justify-content-center align-items-center" href="#">
+						<img src="images/logo.png">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#love_nav" aria-controls="love_nav"
+					 aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="love_nav">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html">首页</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="page.html">恋爱博物馆</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">恋爱社区</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">恋爱疑惑</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">邂逅爱情</span></a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+								 aria-haspopup="true" aria-expanded="false">
+									我主良缘
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">缘分推荐</a>
+									<a class="dropdown-item" href="#">视频交友</a>
+									<a class="dropdown-item" href="#">恋爱课堂</a>
+									<a class="dropdown-item" href="#">社区动态</a>
+								</div>
+							</li>
+							<form action="#" class=" navbar-right navbar-form d-none d-lg-flex align-items-center">
+								<input type="text" class="form-control" placeholder="Search..." name="search">
+								<button type="submit" class="btn btn-default"></button>
+							</form>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!----------------------------------头部end---------------------------------->
+
+
+
+		<!----------------------------------轮播图start---------------------------------->
+		<section id="love-carousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#love-carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#love-carousel" data-slide-to="1"></li>
+				<li data-target="#love-carousel" data-slide-to="2"></li>
+				<li data-target="#love-carousel" data-slide-to="3"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active" data-sm-img="images/bg-1.png" data-lg-img="images/bg-1.big.png">
+				</div>
+				<div class="carousel-item " data-sm-img="images/bg-2.png" data-lg-img="images/bg-2.big.png">
+				</div>
+				<div class="carousel-item " data-sm-img="images/bg-3.png" data-lg-img="images/bg-3.big.png">
+				</div>
+				<div class="carousel-item " data-sm-img="images/bg-4.png" data-lg-img="images/bg-4.big.png">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#love-carousel" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#love-carousel" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</section>
+		<!----------------------------------轮播图end---------------------------------->
+
+
+
+		<!----------------------------------梦中情人start---------------------------------->
+		<section id="love-information">
+			<!-- 标题 -->
+			<div class="text-center My-love">
+				<div class="row">
+					<div class="col-4 d-none d-md-block">
+						<div id="heart">
+							<div class="hearts">
+								<div class="heart d-block">
+									<div class="plane plane-left">
+										<div class="half-heart"></div>
+									</div>
+									<div class="plane plane-right">
+										<div class="half-heart"></div>
+									</div>
+								</div>
+								<div class="heart d-none d-sm-block">
+									<div class="plane plane-left">
+										<div class="half-heart"></div>
+									</div>
+									<div class="plane plane-right">
+										<div class="half-heart"></div>
+									</div>
+								</div>
+								<div class="heart d-none d-md-block">
+									<div class="plane plane-left">
+										<div class="half-heart"></div>
+									</div>
+									<div class="plane plane-right">
+										<div class="half-heart"></div>
+									</div>
+								</div>
+								<div class="heart d-none d-lg-block">
+									<div class="plane plane-left">
+										<div class="half-heart"></div>
+									</div>
+									<div class="plane plane-right">
+										<div class="half-heart"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 ">
+						<h2><strong>梦中情人</strong></h2>
+						<h5>——你心中的他/她</h5>
+						<div class="d-flex justify-content-center">
+							<img class="d-none d-lg-block" src="images/My-love.png" />
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div id="heart">
+							<div class="hearts">
+								<div class="heart d-block">
+									<div class="plane plane-left">
+										<div class="half-heart"></div>
+									</div>
+									<div class="plane plane-right">
+										<div class="half-heart"></div>
+									</div>
+								</div>
+								<div class="heart d-block">
+									<div class="plane plane-left">
+										<div class="half-heart"></div>
+									</div>
+									<div class="plane plane-right">
+										<div class="half-heart"></div>
+									</div>
+								</div>
+								<div class="heart d-none d-md-block">
+									<div class="plane plane-left">
+										<div class="half-heart"></div>
+									</div>
+									<div class="plane plane-right">
+										<div class="half-heart"></div>
+									</div>
+								</div>
+								<div class="heart d-none d-lg-block">
+									<div class="plane plane-left">
+										<div class="half-heart"></div>
+									</div>
+									<div class="plane plane-right">
+										<div class="half-heart"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 内容 -->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-lg-4 media">
+						<img src="images/friend%20(1).jpg" class="align-self-center mr-3" alt="...">
+						<div class="media-body bg-light">
+							<h5 class="mt-0">帅气型</h5>
+							<p>他远远望来，高高地扬起嘴角，冲着少女诱惑地打招呼。</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 media">
+						<img src="images/friend%20(2).jpg" class="align-self-center mr-3" alt="...">
+						<div class="media-body bg-light">
+							<h5 class="mt-0">大叔型</h5>
+							<p>冷酷的外表，经历沧桑岁月的白胡子，我是澳大利亚大哥大</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 media">
+						<img src="images/friend%20(3).jpg" class="align-self-center mr-3" alt="...">
+						<div class="media-body bg-light">
+							<h5 class="mt-0">可爱型</h5>
+							<p>瞅我，瞅我，瞅我，可爱的外表隐藏不了我是老司机的事实</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 media">
+						<img src="images/friend%20(4).jpg" class="align-self-center mr-3" alt="...">
+						<div class="media-body bg-light">
+							<h5 class="mt-0">甜蜜型</h5>
+							<p>我是一朵小桃花，你看我笑得多甜啊，快来亲一口，嘻嘻嘻</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 media">
+						<img src="images/friend%20(5).jpg" class="align-self-center mr-3" alt="...">
+						<div class="media-body bg-light">
+							<h5 class="mt-0">呆萌型</h5>
+							<p>你是谁,你在看什么？我脸上有脏东西吗？在哪呢，在哪呢？</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 media">
+						<img src="images/friend%20(6).jpg" class="align-self-center mr-3" alt="...">
+						<div class="media-body bg-light">
+							<h5 class="mt-0">腐女型</h5>
+							<p>基佬基佬我最爱，香蕉比利海灵顿，偶尔也爱小妖王</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!----------------------------------梦中情人end---------------------------------->
+
+
+
+		<!----------------------------------恋爱博物馆start---------------------------------->
+		<section id="love-museum">
+			<!-- 标题 -->
+			<div class="text-center love-museum ">
+				<h2><strong>恋爱博物馆</strong></h2>
+				<h5>——男孩儿和女孩儿的爱情故事，你是否还记得喜欢过的她</h5>
+				<ul class="row d-none d-lg-flex justify-content-around">
+					<li title="前往博物馆"><a href="page.html"><img src="images/love-museum%20(1).jpg" /></a></li>
+					<li title="前往博物馆"><a href="page.html"><img src="images/love-museum%20(2).jpg" /></a></li>
+					<li title="前往博物馆"><a href="page.html"><img src="images/love-museum%20(3).jpg" /></a></li>
+					<li title="前往博物馆"><a href="page.html"><img src="images/love-museum%20(4).jpg" /></a></li>
+				</ul>
+			</div>
+			<!-- 内容 -->
+			<div class="container-fluid">
+				<div style="overflow: auto;" class="d-lg-flex justify-content-lg-center">
+					<ul class="nav nav-tabs bg-light justify-content-center" id="myTab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" data-toggle="tab" href="#info-1">夏至未至</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#info-2">爱的陪伴</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#info-3">花样年华</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#info-4">谁动了我的眼镜</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#info-5">樱花之约</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#info-6">挚爱</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#info-7">小说</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#info-8">她的城</a>
+						</li>
+						<li class="nav-item" title="更多">
+							<a href="page.html" style="line-height: 40px;">···</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="info-1">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-8">
+									<h3>永远喜欢你</h3>
+									<p>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现在想想那时也还是好美好。然后终于有一天我发现了我们之间的不同寻常。<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上课看见他的大衣衣角垂着，我不知道出于什么想法，伸手拉他衣角，然后他超级宠溺的扭过头，问我怎么了。<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我说没事，就想拽着玩儿。<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;他超级软的声音说，都随你啊～哇，，，，当时老脸一红。<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;然后这崽子语文考试回来后给我写纸条老婆长老婆短。不禁感慨，男孩子都这么骚气的吗？现在在一起一年半了，都考上了不错的学校，离得很近。<br>
+										会幸福一辈子的吧。
+									</p>
+								</div>
+								<div class="col-lg-4 text-center d-flex align-items-center justify-content-center">
+									<img src="images/heart%20(1).png" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="info-2">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-4 text-center d-flex align-items-center justify-content-center">
+									<img src="./images/heart%20(2).png" />
+								</div>
+								<div class="col-lg-8">
+									<h3>庆幸在身边的那个人一直是你</h3>
+									<p>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;清晨懒洋洋地从温暖的被窝里爬起，真是毅力大考验。而我总比家里另两个男人早起半小时，窗外天气明朗，头天准备好的外套明显用不了，气温至少有21度，我喜欢。
+										老公突然大声唱着《我的好兄弟》，突然把我叫住了，你嫁给我了吗？你真的嫁给我了吗？
+										如若不是窗外阳光明媚，空气怡人的清晨，我定会以为他在说糊话，我放下手上的毛巾，将脸凑过去贴住他略带沧桑的脸紧贴着扎人的胡须，像是抚摸着一块平整不一的大饼，温暖而真实，如此形容真是可笑。
+										我又不管不顾地爬进了他的被窝，与他拥抱在一起，很享受这种时刻，他朝我又问了一遍，"你真的嫁给我了吗"？
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="info-3">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-8">
+									<h3>花样年华</h3>
+									<p>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;四十多年前，他还是一个身材挺拔的年轻人，额角光滑，眼神熠熠。那时，他在一所中学任代课教师，课上得极有特色，深得学生们喜爱。
+										他早早地结婚，奉的是父母之命，媒妁之言。女人是邻村的，大字不识一个，性格木讷，但是，长得腰宽臀肥。
+										父母极中意，这样的媳妇，干活儿肯定是一把好手，会生孩子，能旺夫。他是孝子，父母满意，他便满意。<br />
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;婚后，他与女人交流不多。平时，他吃住在学校，周末才回家。到了家里，多半无话。他忙他的，备课、改作业；女人忙女人的，鸡鸭猪羊一大堆，地里的庄稼活儿也多。女人是能干的，家里家外收拾得妥妥帖帖。对这样的日子，他没有什么可嫌弃的，直到他陷入一个女学生的爱情中。
+										女学生是别班的，19岁，个子高挑，性格活泼，能歌善舞。学校的元旦文艺演出，他和她分别是男女主持。她伶俐的口才，洒脱的台风，让他印象深刻。他翩翩的风采，磁性的嗓音，让她着迷。
+									</p>
+								</div>
+								<div class="col-lg-4 text-center d-flex align-items-center justify-content-center">
+									<img src="./images/heart%20(3).png" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="info-4">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-4 text-center d-flex align-items-center justify-content-center">
+									<img src="./images/heart%20(4).png" />
+								</div>
+								<div class="col-lg-8">
+									<h3>谁动了我的眼镜</h3>
+									<p>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第一次见面，她就喜欢上了他，戴着付眼镜，一身书卷气，一口洁白的牙齿，让人觉得很阳光，很帅气。
+										<br />
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有时，她又觉得他有那么一点点的书呆子气。就说眼前吧，公园里哪一对恋人不是拥在一起的，有的还往小树林里钻。而只有他们两个依着栏杆看着水里的小鱼嬉闹，两人之间还保持着一点距离，认识到现在，他甚至连她的手都没有拉过！
+										<br />
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;她知道他也是喜欢她的，就是不敢主动点。而她自己也不是很现代的，让她先怎么来着她也不敢。两个人就这样静静地注视着水面，彼此能听到对方的心跳。
+										<br />
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;夕阳就要下山了，火一样的晚霞映红了半边天，也映得两人的脸红红的。她忽然有点气恼起来，真想一脚把他踢到水里喂金鱼。一想到这，她的心里闪过一个念头，对！得治治他，她抿嘴一笑。
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="info-5">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-8">
+									<h3>樱花之约</h3>
+									<p>
+										　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;樱花之约现在，他远不及当初上班时那么繁忙，可以有更多的时间来陪伴妻子美奈子。他们可以一起散步，一起逗小狗玩，一起去超市买菜……其中他最想做的一件事情，就是和美奈子一起去看樱花。
+										<br>
+										　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　在日本，观赏樱花的地方数不胜数。可是在津川看来，在樱花盛开的时节离开东京去伊豆半岛，才是真正意义上的赏樱。那里的樱花树长成像隧道般的形状，长达几公里。樱花树生长的样子是完全纯天然的。行人在这条路上漫步，全身都会落满轻柔的花瓣。
+										<br>
+										　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　每年的四月五日左右，是伊豆半岛空气最好的时候。此时正是小阳春的时节，拥有穿和服的最佳温度。想当初，他可就是因为美奈子穿着和服站在樱花树下，才对她一见钟情的呀！他们相恋之后，他就曾和她约定，等我们满头银发的时候，还会再带你来赏樱花的。
+									</p>
+								</div>
+								<div class="col-lg-4 text-center d-flex align-items-center justify-content-center">
+									<img src="./images/heart%20(5).png" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="info-6">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-4 text-center d-flex align-items-center justify-content-center">
+									<img src="./images/heart%20(6).png" />
+								</div>
+								<div class="col-lg-8">
+									<h3>挚爱</h3>
+									<p> 　
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这份动人的情感属于一个不世出的商业巨子。
+										<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;他走了。他留下的一切至今仍在影响这个世界。
+										<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这个叫乔布斯的美国人，他的婚姻持续了22年。
+										<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显然，嫁给一个被全世界尊崇且短命的创新狂人是一件很辛苦的事，因为他经常忙得不记得纪念日或生日。甚至可以说，早在他决定成立家庭那一刻起，他就只属于自己的梦想和千千万万的“果粉”。
+										<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;乔布斯觉得最对不起的人就是他的妻子。于是，在生命的最后时刻，他决定做出补偿。
+										<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;他反省了他是多么自私和苛刻。“劳伦要应付这一切，还要照顾生病的我，”他说，“我知道跟我生活在一起可不是件享受的事情。”他决定送给自己最爱的人一艘游艇。当时这艘游艇已经在由荷兰的游艇定制公司Feadship建造，但是乔布斯仍然在对设计改来改去。“我知道有可能我会死掉，留给劳伦一艘造了一半的游艇，”他说，“但是我必须继续做下去。如果我不这么做，就是承认我快要死了。”
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="info-7">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-8">
+									<h3>就是我一直在读的那部小说</h3>
+									<p>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;她爱上了写作那刻起，整个人都象着了魔似的，工作八小时之外，她恨不得将一分钟用出两分钟来，她还真有这方面的天赋，再加上从小就喜欢读书，手一摸到键盘就文如泉涌，功夫不负有心人，几个月后，她的文字在诸多报刊杂志上露面了。
+										<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你就是我一直在读的那部小说她有些沾沾自喜，庆幸自己年过三十还有此成就。每每收到稿费，那种自豪感让她忍不住支使他为她忙这忙那，那一刻，她感觉自己就是女皇。
+									</p>
+								</div>
+								<div class="col-lg-4 text-center d-flex align-items-center justify-content-center">
+									<img src="./images/heart%20(7).png" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="info-8">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-4 text-center d-flex align-items-center justify-content-center">
+									<img src="./images/heart%20(8).png" />
+								</div>
+								<div class="col-lg-8">
+									<h3>她的城</h3>
+									<p>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;那一年，王小慧36岁，日子过得波澜不惊。和刘杰的爱情，是典型的传统爱情，相亲，谈话，直奔主题——婚姻。没有谈情说爱你侬我侬，都是为了给父母一个放心，在感觉彼此有一些担当的时候，结婚，生子，挣钱，养家，如此而已。虽不再谈爱情，但王小慧依然相信爱情，相信爱情的怦然心动。
+										<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;她的城没事的时候，王小慧最爱去的地方，是好友紫玫的干洗店。小店干净且煞有情调，前厅有一个小小的吧台，紫色的藤花铺着，柔和的音乐环绕着。来店的顾客，品一壶茶，自是喜上眉梢，如沐春风。时间久了，有的人来，不为洗衣，反倒只是为了坐坐。王小慧便是其中一个。
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!----------------------------------恋爱博物馆end---------------------------------->
+
+
+
+		<!----------------------------------关于我们start---------------------------------->
+		<section id="love-about">
+			<!-- 标题 -->
+			<div class="text-center about ">
+				<h2><strong>关于我们</strong></h2>
+				<h5>——深入大众，心系大众，让您感受到爱情的甜蜜</h5>
+			</div>
+			<!-- 内容 -->
+			<div class="container">
+				<div class="row ">
+					<div class="col-lg-8">
+						<ul class="row d-flex justify-content-around  " style="padding-left: 0px; padding-top: 50px;">
+							<li class="col-md-3  d-flex justify-content-center">
+								<div class="card" style="">
+									<img class="card-img-top" src="images/foot1.png" alt="Card image" style="width:100%">
+									<div class="card-body">
+										<p class="card-text">扫描二维码微信关注</p>
+									</div>
+								</div>
+							</li>
+							<li class="col-md-3  d-flex justify-content-center">
+								<div class="card" style="">
+									<img class="card-img-top" src="images/foot2.png" alt="Card image" style="width:100%">
+									<div class="card-body">
+										<p class="card-text">扫描二维码下载App</p>
+									</div>
+								</div>
+							</li>
+							<li class="col-md-3  d-flex justify-content-center">
+								<div class="card" style="">
+									<img class="card-img-top" src="images/foot3.png" alt="Card image" style="width:100%">
+									<div class="card-body">
+										<p class="card-text">微信扫码免费领取拼多多店铺</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-1 d-none d-lg-flex justify-content-center">
+						<p style="width: 0px; height: 100%; border-right: #000000 1.5px solid;"></p>
+					</div>
+					<div class="col-lg-3">
+						<p class="text-center " style="padding-top: 30px;">
+							联系我们
+							<br>
+							客服&举报电话：021-53395288（推荐）
+							<br>
+							400-8822-528
+							<br>
+							商家热线：021-5339-5088
+							<br>
+							商家客服服务时间：8:00-20:30
+							<br>
+							消费者客服服务时间：8:00-21:30
+							<br>
+							上海寻梦信息技术有限公司
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!----------------------------------关于我们end---------------------------------->
+
+
+
+		<!----------------------------------友情连接start---------------------------------->
+		<section id="love-link " class="d-none d-lg-block">
+			<div class="text-center href ">
+				<h2><strong>友情链接</strong></h2>
+			</div>
+			<div class="container">
+				<div class="row d-flex justify-content-around align-items-center">
+					<a href="#"><img src="images/PayPal.png" width="100" alt="" /></a>
+					<a href="#"><img src="images/阿里巴巴.png" width="50" alt="" /></a>
+					<a href="#"><img src="images/阿里云.png" width="100" alt="" /></a>
+					<a href="#"><img src="images/腾讯云.png" width="100" alt="" /></a>
+					<a href="#"><img src="images/沃尔玛.png" width="100" alt="" /></a>
+					<a href="#"><img src="images/facebook.png" width="50" alt="" /></a>
+					<a href="#"><img src="images/firefox.png" width="50" alt="" /></a>
+					<a href="#"><img src="images/airbnb.png" width="50" alt="" /></a>
+				</div>
+			</div>
+		</section>
+		<!----------------------------------友情连接end---------------------------------->
+
+
+
+		<!----------------------------------尾部start---------------------------------->
+		<footer id="love-footer">
+			<div class="container ">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="row">
+							<ul class="offset-lg-4 col-lg-4 text-center  col-6">
+								<li><a href="#" class="text-light">常用工具</a></li>
+								<li><a href="#" class="text-light">友情链接</a></li>
+								<li><a href="#" class="text-light">联系我们</a></li>
+							</ul>
+							<ul class="col-lg-4 text-center  col-6">
+								<li><a href="#" class="text-light">校园招聘</a></li>
+								<li><a href="#" class="text-light">帮助中心</a></li>
+								<li><a href="#" class="text-light">提交建议</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 d-flex align-items-center justify-content-center">
+						<ul class=" text-light text-center " style="padding: 0px;">
+							<li>适用版本：PC端、平板端、手机端</li>
+							<li>Copyright 2019-2020 恋爱博物馆 版权所有</li>
+						</ul>
+					</div>
+					<div class="col-lg-4 d-none d-lg-flex align-items-center justify-content-center">
+						<div class="row d-flex align-items-center">
+							<div class="text-light">
+								最佳体验浏览器：
+							</div>
+							<div>
+								<img src="images/firefox.png" alt="..." style="width: 60px; height: 60px;" />
+								<img src="images/谷歌.png" alt="..." style="width: 72px; height: 74px;" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!----------------------------------尾部end---------------------------------->
+	</body>
+</html>

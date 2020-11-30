@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>爱情的蜂蜜-注册登录</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="shortcut icon" href="images/love.ico" />
+		<link rel="stylesheet" href="font/iconfont.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/love.css" />
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$(()=>{
+				$("span").on("click",()=>{
+					window.location.reload()
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<audio src="src/雪奕.mp3" autoplay="autoplay" loop="loop">
+			当前浏览器不支持audio
+		</audio>
+		<!----------------------------------登录头部start---------------------------------->
+		<header id="love-header-login">
+			<div class="container">
+				<ul class="nav nav-tabs d-flex justify-content-end" id="myTab" role="tablist">
+					<li class="text-center" style="width: 64px;">
+						<a href="./index.html" style="width: 64px; height: 80px;display: block;">首页</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" data-toggle="tab" href="#info-1">登录</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#info-2">注册</a>
+					</li>
+				</ul>
+				</section>
+		</header>
+		<!----------------------------------登录头部end---------------------------------->
+
+
+		<!----------------------------------内容start---------------------------------->
+		<section id="love-link-login">
+			<div class="tab-content" id="myTabContent">
+				<div class="tab-pane fade show active" id="info-1">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8 d-none d-lg-block">
+								<img src="images/login-bg%20(1).jpg" alt="" />
+							</div>
+							<div class="col-12 col-lg-4">
+								<form action="#" class="bg-light">
+									<h4 class="text-center" style="margin-top: 50px;">用户登录</h4>
+									<div class="input-group mb-3">
+										<input type="text" class="form-control" placeholder="请输入用户名" id="usr" name="username">
+									</div>
+									<div class="input-group mb-3">
+										<input type="password" class="form-control" placeholder="请输入密码" id="password" name="password">
+									</div>
+									<input type="submit" class="btn  btn-danger" name="登录" value="登录" />
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="info-2">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-lg-4">
+								<form action="#" class="bg-light">
+									<h4 class="text-center">用户注册</h4>
+									<div class="input-group mb-3">
+										<input type="text" class="form-control" placeholder="请输入用户名" id="usr" name="username">
+									</div>
+									<div class="input-group mb-3">
+										<input type="password" class="form-control" placeholder="请输入密码" id="password" name="password">
+									</div>
+									<div class="input-group mb-3">
+										<input type="password" class="form-control" placeholder="请验证密码" id="passwordagain" name="passwordagain">
+									</div>
+									<input type="submit" class="btn  btn-danger" name="注册" value="注册" />
+									<div class="small" style="margin: 0px;">
+										已有账号？<span class="text-warning">立即登录</span>
+									</div>
+								</form>
+							</div>
+							<div class="col-lg-8 d-none d-lg-block">
+								<img src="images/login-bg%20(2).jpg" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+		<!----------------------------------内容end---------------------------------->
+
+
+
+		<!----------------------------------登录尾部start---------------------------------->
+		<footer id="love-footer-login" class="bg-light">
+			<p class="lead small text-center">Copyright 2019-2020 恋爱博物馆 版权所有</p>
+		</footer>
+		<!----------------------------------登录尾部end---------------------------------->
+	</body>
+</html>

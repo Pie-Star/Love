@@ -1,0 +1,511 @@
+/******************************通用样式start******************************/
+body {
+	color: #000;
+	user-select: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+img {
+	-webkit-user-drag: none;
+}
+
+/******************************通用样式end******************************/
+/******************************头部样式start******************************/
+#love-header {}
+
+#love-header>.top-bar {
+	height: 40px;
+	line-height: 39px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#love-header>.top-bar>.container>.row>div+div {
+	border-left: 1px solid #e0e0e0;
+}
+
+#love-header>.top-bar>.container>.row>.top-bar-1>a {
+	position: relative;
+}
+
+#love-header>.top-bar>.container>.row>.top-bar-1>a img {
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 999;
+	display: none;
+}
+
+#love-header>.top-bar>.container>.row>.top-bar-1>a:hover img {
+	display: block;
+}
+
+#love-header>.navbar {
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#love-header>.navbar>.container>.navbar-brand {
+	height: 90px;
+	margin-left: 15px;
+	margin-right: 80px;
+}
+
+#love-header>.navbar>.container>.navbar-brand>img {
+	width: 100px;
+}
+
+#love-header>.navbar>.container>.navbar-collapse>.navbar-nav>li>a {
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+}
+
+#love-header>.navbar>.container>.navbar-collapse>.navbar-nav>li>a:hover {
+	border-bottom: 3px solid pink;
+}
+
+/******************************头部样式end******************************/
+/******************************轮播图样式start******************************/
+#love-carousel>.carousel-inner>.carousel-item {
+	background-color: red;
+	background: no-repeat;
+}
+
+#love-carousel>.carousel-inner>.carousel-item>img {
+	width: 100%;
+}
+
+/* 设置宽度大于900px的样式 */
+@media screen and (min-width:900px) {
+	#love-carousel>.carousel-inner>.carousel-item {
+		height: 410px;
+		background: no-repeat center center;
+	}
+}
+
+/******************************轮播图样式end******************************/
+/******************************梦中情人样式start******************************/
+
+#heart {
+	margin: 0;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* overflow: hidden; */
+}
+
+.hearts {
+	width: 100%;
+	height: 20%;
+	box-sizing: border-box;
+	padding: 0 5vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.heart {
+	width: 80px;
+	height: 80px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	animation: rotate 5s ease-in-out infinite;
+	transform-style: preserve-3d;
+}
+
+
+.heart:nth-of-type(1) {
+	animation-delay: -4s;
+}
+
+.heart:nth-of-type(2) {
+	animation-delay: -3s;
+}
+
+.heart:nth-of-type(3) {
+	animation-delay: -2s;
+}
+
+.heart:nth-of-type(4) {
+	animation-delay: -1s;
+}
+
+#love-information>.My-love>.row>div:nth-child(3) .heart:nth-of-type(1) {
+	animation-delay: -1s;
+}
+
+#love-information>.My-love>.row>div:nth-child(3) .heart:nth-of-type(2) {
+	animation-delay: -2s;
+}
+
+#love-information>.My-love>.row>div:nth-child(3) .heart:nth-of-type(3) {
+	animation-delay: -3s;
+}
+
+#love-information>.My-love>.row>div:nth-child(3) .heart:nth-of-type(4) {
+	animation-delay: -4s;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotateY(0deg) rotateZ(25deg) translateY(40px);
+	}
+
+	50% {
+		transform: rotateY(270deg) rotateZ(25deg) translateY(-40px);
+	}
+
+	100% {
+		transform: rotateY(360deg) rotateZ(25deg) translateY(40px);
+	}
+}
+
+.plane {
+	position: absolute;
+	opacity: 0.8;
+}
+
+.plane-right {
+	transform: rotateY(90deg);
+}
+
+.half-heart {
+	width: 40px;
+	height: 40px;
+	background-color: pink;
+	transform: rotate(-45deg);
+}
+
+.half-heart:before,
+.half-heart:after {
+	content: "";
+	width: 40px;
+	height: 40px;
+	background-color: pink;
+	border-radius: 100%;
+	position: absolute;
+}
+
+.half-heart:before {
+	top: -20px;
+	left: 0;
+}
+
+.half-heart:after {
+	top: 0;
+	left: 20px;
+}
+
+#love-information>.My-love {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#love-information>.My-love>.row {
+	padding: 0px;
+	margin: 0px;
+}
+
+#love-information>.My-love>.row img {
+	width: 200px;
+}
+
+#love-information>.container>.row>.media {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#love-information>.container>.row>.media>img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+}
+
+#love-information>.container>.row>.media>.media-body {
+	padding: 10px;
+	border-radius: 20px;
+
+}
+
+/******************************梦中情人样式end******************************/
+/******************************恋爱博物馆样式start******************************/
+#love-museum>.love-museum {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#love-museum>.love-museum>.row {
+	margin: 20px;
+}
+
+#love-museum>.love-museum>.row>li>a>img {
+	width: 200px;
+	height: 120px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: all 6s;
+}
+
+#love-museum>.love-museum>.row>li>a>img:hover {
+	animation-name: animation1;
+	animation-duration: 2s;
+}
+
+@keyframes animation1 {
+	0% {
+		transform: translate(0, 0);
+	}
+
+	10% {
+		transform-origin: 50% 100%;
+		transform: scale(0.9);
+	}
+
+	20% {
+		transform-origin: 50% 100%;
+		transform: scale(1);
+	}
+
+	30% {
+		transform: translate(0, -5px);
+	}
+
+	40% {
+		transform: translate(0, -8px);
+		transform-origin: 100% 50%;
+		transform: rotate(10deg);
+	}
+
+	50% {
+		transform: translate(0, -5px);
+		transform-origin: 0% 50%;
+		transform: rotate(-5deg);
+	}
+
+	60% {
+		transform: rotate(0deg);
+	}
+
+	70% {
+		transform: translate(0, 0);
+	}
+
+	80% {
+		transform-origin: 50% 100%;
+		transform: scale(0.95);
+	}
+
+	90% {
+		transform: translate(0, -2px);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+#love-museum>.container-fluid {
+	padding: 0px;
+	background-color: #f8f9fa;
+}
+
+
+#love-museum>.container-fluid>div>.nav-tabs {
+	border-bottom: 0px;
+	margin-bottom: 10px;
+}
+
+#love-museum>.container-fluid>div>.nav-tabs>.nav-item {
+	font-size: 17px;
+}
+
+#love-museum>.container-fluid>div>.nav-tabs>.nav-item>a {
+	color: rgba(0, 0, 0, 0.5);
+	padding: 10px 20px;
+	border: none;
+}
+
+#love-museum>.container-fluid>div>.nav-tabs>.nav-item>a.active {
+	color: #000000;
+	background-color: #f8f9fa;
+	border-bottom: pink 3px solid;
+}
+
+#love-museum>.container-fluid>#myTabContent>.tab-pane>.container>.row>.col-lg-8 {
+	color: #000000;
+}
+
+#love-museum>.container-fluid>#myTabContent>.tab-pane>.container>.row>.col-lg-8>h3 {
+	margin-top: 30px;
+	padding-left: 30px;
+	text-align: center;
+
+}
+
+#love-museum>.container-fluid>#myTabContent>.tab-pane>.container>.row>.col-lg-8>p {
+	background-color: #ffffd7;
+	padding: 30px;
+	border-radius: 30px;
+}
+
+/******************************恋爱博物馆样式end******************************/
+/******************************关于我们样式start******************************/
+#love-about>.about {
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+#love-about>.container>.row>div>.card>.card-body {
+	padding: 10PX;
+	font-size: 14px;
+}
+
+#love-about>.container>.row>.col-lg-8>ul>li>.card {
+	width: 120px;
+	border: 0px;
+}
+
+#love-about>.container>.row>.col-lg-8>ul>li>.card>.card-body {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+/******************************关于我们样式end******************************/
+/******************************友情连接样式start******************************/
+#love-link>div {
+	margin-top: 20px;
+}
+
+#love-link>.container {
+	margin-bottom: 30px;
+}
+
+/******************************友情连接样式end******************************/
+/******************************尾部样式start******************************/
+#love-footer {
+	background-color: rgb(0, 0, 0, 0.7);
+	font-size: 15px;
+}
+
+#love-footer>.container {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#love-footer>.container img {
+	margin-left: 15px;
+}
+
+#love-footer>.container>.row>div:nth-child(3)>ul>li {
+	width: 70px;
+	height: 70px;
+}
+
+/******************************尾部样式end******************************/
+/******************************登录头部start******************************/
+
+#love-header-login {
+	width: 100%;
+	border-bottom: #e6e6e6 1px solid;
+}
+
+#love-header-login>.container>ul {
+	border: 0px;
+}
+
+#love-header-login>.container>ul>li>a {
+	border: 0px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	color: #000000;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#love-header-login>.container>ul>li>a.active {
+	color: #FF0000;
+	border-bottom: #FF0000 3px solid;
+}
+
+/******************************登录頭部end******************************/
+/******************************登錄内容start******************************/
+#love-link-login>#myTabContent>.tab-pane>.container>.row {
+	height: 400px;
+	margin-top: 30px;
+}
+
+#love-link-login>#myTabContent>.tab-pane>.container>.row>.col-lg-8 {
+	padding: 0px;
+}
+
+#love-link-login>#myTabContent>.tab-pane>.container>.row>.col-lg-4 {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#love-link-login>#myTabContent>.tab-pane>.container>.row>.col-lg-4>form {
+	border: #e6e6e6 1px solid;
+	padding: 40px;
+	height: 100%;
+}
+
+#love-link-login>#myTabContent>.tab-pane>.container>.row>.col-lg-4>form>input {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#love-link-login>#myTabContent>.tab-pane>.container>.row>.col-lg-4>form>div {
+	margin-top: 30px;
+}
+
+#love-link-login>#myTabContent>.tab-pane>.container>.row>.col-lg-4>form>div>span {
+	cursor: pointer;
+}
+
+#love-link-login>#myTabContent>.tab-pane>.container>.row>.col-lg-8>img {
+	width: 100%;
+}
+
+/******************************登錄内容end******************************/
+/******************************登錄尾部start******************************/
+#love-footer-login {
+	height: 100px;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/******************************登錄尾部end******************************/
+/******************************分页内容end******************************/
+
+
+#love-page>.container-fluid>.row>#myScrollspy>ul.nav-pills {
+	position: fixed;
+}
+
+#love-page>.container-fluid>ul {
+	margin-top: 30px;
+}
+
+/******************************分页内容start******************************/
